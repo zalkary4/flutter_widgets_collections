@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/about_dialog_widget.dart';
+import 'package:flutter_widgets/about_list_tile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AboutDialogWidget(),
+        body: AboutListTileW(),
       ),
     );
   }
