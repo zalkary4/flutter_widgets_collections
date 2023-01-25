@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/about_list_tile.dart';
+import 'package:flutter_widgets/absorb_pointer_widget003.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AboutListTileW(),
+        body: AbsorbPointerWidget003(),
       ),
     );
   }
