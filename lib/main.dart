@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/page_view_w.dart';
+import 'package:flutter_widgets/alert_dialog_w005.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: PageViewW(),
+        body: AlertDialogW(),
       ),
     );
   }
