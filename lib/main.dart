@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'widgets/padding_flutter_widget.dart';
+import 'package:flutter_widgets/page_view_w.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: PaddingFlutterWidget(),
+        body: PageViewW(),
       ),
     );
   }
