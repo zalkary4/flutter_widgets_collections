@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/alert_dialog_w006.dart';
+import 'package:flutter_widgets/animated_alight_w007.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AlertDialogW006(),
+        body: AnimatedAlightW007(),
       ),
     );
   }
