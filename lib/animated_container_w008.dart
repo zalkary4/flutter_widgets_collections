@@ -19,7 +19,7 @@ class _AnimatedContainerW008State extends State<AnimatedContainerW008> {
       },
       child: Center(
           child: AnimatedContainer(
-        width: selected ? 200.0 : 100.0,
+        width: selected ? 300.0 : 100.0,
         height: selected ? 100.0 : 200.0,
         color: selected ? Colors.blueGrey : Colors.white,
         alignment: selected ? Alignment.center : AlignmentDirectional.topCenter,
