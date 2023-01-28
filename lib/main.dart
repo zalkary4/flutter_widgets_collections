@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/animated_builder_w008.dart';
+import 'package:flutter_widgets/animated_container_w008.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AnimatedBuilderW008(),
+        body: AnimatedContainerW008(),
       ),
     );
   }
