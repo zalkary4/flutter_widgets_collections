@@ -21,7 +21,7 @@ class _AnimatedDefaultTextStyleW011State
         SizedBox(
           height: 120,
           child: AnimatedDefaultTextStyle(
-            duration: const Duration(milliseconds: 300),
+            duration: const Duration(milliseconds: 600),
             style: TextStyle(
               fontSize: _fontSize,
               color: _color,
