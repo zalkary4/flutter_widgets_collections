@@ -19,7 +19,7 @@ class _AboutDialogWidgetState extends State<AboutDialogWidget> {
             builder: (context) => const AboutDialog(
               applicationIcon: FlutterLogo(),
               applicationLegalese: 'legalese',
-              applicationName: 'Flutter Logo',
+              applicationName: 'Flutter Logoooo',
               applicationVersion: 'Version 1.0.0',
               children: [Text('This is a text created by Zalkar')],
             ),
