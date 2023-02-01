@@ -23,7 +23,7 @@ class _AbsorbPointerWidget003State extends State<AbsorbPointerWidget003> {
             ),
           ),
           SizedBox(
-            width: 100,
+            width: 110,
             height: 200,
             child: AbsorbPointer(
               child: ElevatedButton(
