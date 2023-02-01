@@ -14,7 +14,7 @@ class _AboutListTileWState extends State<AboutListTileW> {
       child: AboutListTile(
         icon: Icon(Icons.info),
         applicationIcon: FlutterLogo(),
-        applicationLegalese: 'Legalese',
+        applicationLegalese: 'Legaleseeee',
         applicationName: 'Flutter Mapp',
         applicationVersion: 'version 1.0.0',
         aboutBoxChildren: [Text('This is text created by Zalkar')],
