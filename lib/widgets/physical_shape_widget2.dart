@@ -16,7 +16,7 @@ class _PhysicalShapeWidget2State extends State<PhysicalShapeWidget2> {
         color: Colors.orangeAccent,
         clipper: ShapeBorderClipper(
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(40.0),
+            borderRadius: BorderRadius.circular(100.0),
           ),
         ),
         child: const SizedBox(
