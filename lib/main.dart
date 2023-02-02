@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/physical_shape_widget2.dart';
+import 'widgets/place_holder_widget1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: PhysicalShapeWidget2(),
+        body: PlaceHolderWidget1(),
       ),
     );
   }
