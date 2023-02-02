@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/animated_default_text_style_w011.dart';
+
+import 'widgets/page_view_widget1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AnimatedDefaultTextStyleW011(),
+        body: PageViewWidget1(),
       ),
     );
   }
