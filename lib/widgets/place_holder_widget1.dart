@@ -14,7 +14,7 @@ class _PlaceHolderWidget1State extends State<PlaceHolderWidget1> {
       children: const [
         Placeholder(
           fallbackHeight: 310,
-          fallbackWidth: 60,
+          fallbackWidth: 70,
           color: Colors.orangeAccent,
         )
       ],
