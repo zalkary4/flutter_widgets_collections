@@ -10,7 +10,7 @@ class PlaceHolderWidget1 extends StatefulWidget {
 class _PlaceHolderWidget1State extends State<PlaceHolderWidget1> {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       children: const [
         Placeholder(
           fallbackHeight: 310,
