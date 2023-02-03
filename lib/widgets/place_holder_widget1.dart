@@ -13,7 +13,7 @@ class _PlaceHolderWidget1State extends State<PlaceHolderWidget1> {
     return Row(
       children: const [
         Placeholder(
-          fallbackHeight: 300,
+          fallbackHeight: 310,
           fallbackWidth: 60,
           color: Colors.orangeAccent,
         )
