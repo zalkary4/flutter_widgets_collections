@@ -26,7 +26,7 @@ class _PageViewWidget1State extends State<PageViewWidget1> {
           child: const Center(
             child: Text(
               '2',
-              style: TextStyle(fontSize: 100),
+              style: TextStyle(fontSize: 120),
             ),
           ),
         ),
