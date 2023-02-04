@@ -33,7 +33,7 @@ class _AnimatedDefaultTextStyleW011State
         TextButton(
             onPressed: () {
               setState(() {
-                _fontSize = _first ? 90 : 60;
+                _fontSize = _first ? 90 : 70;
                 _color = _first ? Colors.blue : Colors.red;
                 _first = !_first;
               });
