@@ -27,7 +27,7 @@ class _AnimatedDefaultTextStyleW011State
               color: _color,
               fontWeight: FontWeight.bold,
             ),
-            child: const Text('Flutter'),
+            child: const Text('Fluttr'),
           ),
         ),
         TextButton(
