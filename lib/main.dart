@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/positioned_stack_widget02.dart';
+import 'package:flutter_widgets/widgets/animated_icon_widget012.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: PositionedStackWidget02(),
+        body: AnimatedIconWidget012(),
       ),
     );
   }
