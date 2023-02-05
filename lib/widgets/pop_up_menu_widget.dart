@@ -9,7 +9,7 @@ class PopUpMenuWidget01 extends StatefulWidget {
 
 class _PopUpMenuWidget01State extends State<PopUpMenuWidget01> {
   String title = 'First item';
-  String item1 = 'firts item';
+  String item1 = 'Firts item';
   String item2 = 'Second item';
   @override
   Widget build(BuildContext context) {
