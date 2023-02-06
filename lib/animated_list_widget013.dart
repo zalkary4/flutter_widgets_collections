@@ -22,7 +22,7 @@ class AnimatedListWidget013 extends StatefulWidget {
         return SizeTransition(
           sizeFactor: animation,
           child: const Card(
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.all(15),
             color: Colors.red,
             child: ListTile(
               title: Text(
