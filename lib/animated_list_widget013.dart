@@ -26,7 +26,7 @@ class AnimatedListWidget013 extends StatefulWidget {
             color: Colors.blue,
             child: ListTile(
               title: Text(
-                'Delete',
+                'Deletee',
                 style: TextStyle(fontSize: 20),
               ),
             ),
