@@ -23,7 +23,7 @@ class AnimatedListWidget013 extends StatefulWidget {
           sizeFactor: animation,
           child: const Card(
             margin: EdgeInsets.all(15),
-            color: Colors.red,
+            color: Colors.blue,
             child: ListTile(
               title: Text(
                 'Delete',
