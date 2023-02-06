@@ -27,7 +27,7 @@ class AnimatedListWidget013 extends StatefulWidget {
             child: ListTile(
               title: Text(
                 'Delete',
-                style: TextStyle(fontSize: 24),
+                style: TextStyle(fontSize: 20),
               ),
             ),
           ),
