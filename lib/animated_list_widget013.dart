@@ -37,7 +37,7 @@ class _AnimatedListWidget013State extends State<AnimatedListWidget013> {
           ),
         );
       },
-      duration: const Duration(microseconds: 1000),
+      duration: const Duration(microseconds: 10000),
     );
     _items.removeAt(index);
   }
