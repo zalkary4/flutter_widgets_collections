@@ -27,7 +27,7 @@ class _AnimatedListWidget013State extends State<AnimatedListWidget013> {
           sizeFactor: animation,
           child: const Card(
             margin: EdgeInsets.all(15),
-            color: Colors.blue,
+            color: Colors.red,
             child: ListTile(
               title: Text(
                 'Deletee',
@@ -37,7 +37,7 @@ class _AnimatedListWidget013State extends State<AnimatedListWidget013> {
           ),
         );
       },
-      duration: const Duration(microseconds: 300),
+      duration: const Duration(microseconds: 1000),
     );
     _items.removeAt(index);
   }
