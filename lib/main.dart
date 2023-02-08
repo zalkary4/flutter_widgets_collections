@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'positioned_transition_widget1.dart';
+import 'package:flutter_widgets/preferred-size_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: PositionedTransitionWidget1(),
+        body: PreferredSizeWidget1(),
       ),
     );
   }
