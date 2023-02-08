@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/animated_modal_barrier_w014.dart';
+
+import 'positioned_transition_widget1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AnimatedModalBarrierW014(),
+        body: PositionedTransitionWidget1(),
       ),
     );
   }
