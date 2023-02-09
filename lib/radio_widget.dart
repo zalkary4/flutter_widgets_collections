@@ -7,7 +7,7 @@ class RadioWidget01 extends StatefulWidget {
   _RadioWidgetState createState() => _RadioWidgetState();
 }
 
-List<String> options = ['Option 1', 'Option 2'];
+List<String> options = ['Option 1', 'Option 2', 'Option 3'];
 
 class _RadioWidgetState extends State<RadioWidget01> {
   String currentOption = options[0];
@@ -38,7 +38,19 @@ class _RadioWidgetState extends State<RadioWidget01> {
               });
             },
           ),
-        )
+        ),
+        ListTile(
+          title: const Text('Channel 2'),
+          leading: Radio(
+            value: options[2],
+            groupValue: currentOption,
+            onChanged: (value) {
+              setState(() {
+                currentOption = value.toString();
+              });
+            },
+          ),
+        ),
       ],
     );
   }
