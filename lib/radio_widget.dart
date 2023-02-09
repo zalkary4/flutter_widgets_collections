@@ -16,7 +16,7 @@ class _RadioWidgetState extends State<RadioWidget01> {
     return Column(
       children: [
         ListTile(
-          title: const Text('Option 1'),
+          title: const Text('Channel 1'),
           leading: Radio(
             value: options[0],
             groupValue: currentOption,
@@ -28,7 +28,7 @@ class _RadioWidgetState extends State<RadioWidget01> {
           ),
         ),
         ListTile(
-          title: const Text('Option 2'),
+          title: const Text('Channel 2'),
           leading: Radio(
             value: options[1],
             groupValue: currentOption,
