@@ -19,9 +19,9 @@ class _AnimatedOpacityWidget015State extends State<AnimatedOpacityWidget015> {
         children: [
           AnimatedOpacity(
             opacity: opacityLevel,
-            duration: const Duration(seconds: 1),
+            duration: const Duration(seconds: 2),
             child: const FlutterLogo(
-              size: 50,
+              size: 100,
             ),
           ),
           ElevatedButton(
