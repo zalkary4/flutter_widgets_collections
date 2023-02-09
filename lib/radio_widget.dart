@@ -40,7 +40,7 @@ class _RadioWidgetState extends State<RadioWidget01> {
           ),
         ),
         ListTile(
-          title: const Text('Channel 2'),
+          title: const Text('Channel 3'),
           leading: Radio(
             value: options[2],
             groupValue: currentOption,
