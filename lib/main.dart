@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/radio_widget.dart';
+import 'package:flutter_widgets/animated_opacity_widget015.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: RadioWidget01(),
+        body: AnimatedOpacityWidget015(),
       ),
     );
   }
