@@ -33,7 +33,7 @@ class _AnimatedPaddinWidget016State extends State<AnimatedPaddinWidget016> {
           curve: Curves.easeInOut,
           child: Container(
             width: MediaQuery.of(context).size.width,
-            height: 300,
+            height: 200,
             // height: MediaQuery.of(context).size.height,
             color: Colors.blue,
           ),
