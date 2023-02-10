@@ -35,7 +35,7 @@ class _AnimatedPaddinWidget016State extends State<AnimatedPaddinWidget016> {
             width: MediaQuery.of(context).size.width,
             height: 300,
             // height: MediaQuery.of(context).size.height,
-            color: Colors.orangeAccent,
+            color: Colors.blue,
           ),
         )
       ],
