@@ -21,7 +21,7 @@ class _AnimatedPaddinWidget016State extends State<AnimatedPaddinWidget016> {
           ),
           onPressed: () {
             setState(() {
-              padValue = padValue == 0.0 ? 100.0 : 0.0;
+              padValue = padValue == 0.0 ? 90.0 : 0.0;
             });
           },
           child: const Text('Change padding'),
