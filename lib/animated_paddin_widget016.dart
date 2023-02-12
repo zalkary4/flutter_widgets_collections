@@ -29,7 +29,7 @@ class _AnimatedPaddinWidget016State extends State<AnimatedPaddinWidget016> {
         Text('Padding =$padValue'),
         AnimatedPadding(
           padding: EdgeInsets.all(padValue),
-          duration: const Duration(seconds: 1),
+          duration: const Duration(seconds: 2),
           curve: Curves.easeInOut,
           child: Container(
             width: MediaQuery.of(context).size.width,
