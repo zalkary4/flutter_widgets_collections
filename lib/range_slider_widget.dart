@@ -18,7 +18,7 @@ class _RangeSliderWidgetState extends State<RangeSliderWidget01> {
     return Center(
       child: RangeSlider(
         values: values,
-        divisions: 10,
+        divisions: 100,
         labels: labels,
         onChanged: (newValues) {
           setState(() {
