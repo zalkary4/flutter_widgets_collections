@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'animated_paddin_widget016.dart';
+import 'package:flutter_widgets/range_slider_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AnimatedPaddinWidget016(),
+        body: RangeSliderWidget01(),
       ),
     );
   }
