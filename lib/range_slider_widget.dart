@@ -8,7 +8,7 @@ class RangeSliderWidget01 extends StatefulWidget {
 }
 
 class _RangeSliderWidgetState extends State<RangeSliderWidget01> {
-  RangeValues values = const RangeValues(0.1, 0.5);
+  RangeValues values = const RangeValues(0.0, 0.5);
   @override
   Widget build(BuildContext context) {
     RangeLabels labels = RangeLabels(
