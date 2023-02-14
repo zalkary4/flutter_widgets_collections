@@ -61,7 +61,7 @@ class RawAutoCompleteWidget extends StatelessWidget {
                       ),
                     );
                   },
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(10.0),
                   itemCount: options.length,
                 ),
               ),
