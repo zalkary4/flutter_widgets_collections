@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/range_slider_widget.dart';
+import 'package:flutter_widgets/raw_auto_complete_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: RangeSliderWidget01(),
+        body: RawAutoCompleteWidget(),
       ),
     );
   }
