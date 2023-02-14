@@ -45,7 +45,7 @@ class RawAutoCompleteWidget extends StatelessWidget {
             child: Material(
               elevation: 4.0,
               child: SizedBox(
-                height: 200,
+                height: 150,
                 child: ListView.builder(
                   itemBuilder: (
                     BuildContext context,
