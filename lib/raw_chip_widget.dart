@@ -7,7 +7,10 @@ class RawChipWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: RawChip(
-        label: const Text('RawChip'),
+        label: const Text(
+          'RawChip',
+          style: TextStyle(fontSize: 30),
+        ),
         avatar: const Icon(Icons.person),
         deleteIcon: const Icon(Icons.remove_circle),
         onPressed: () {},
