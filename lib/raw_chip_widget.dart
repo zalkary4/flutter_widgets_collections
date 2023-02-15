@@ -9,7 +9,10 @@ class RawChipWidget extends StatelessWidget {
       child: RawChip(
         label: const Text(
           'RawChip',
-          style: TextStyle(fontSize: 30),
+          style: TextStyle(
+            fontSize: 30,
+            color: Color(0xFF42A5F5),
+          ),
         ),
         avatar: const Icon(Icons.person),
         deleteIcon: const Icon(Icons.remove_circle),
