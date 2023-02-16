@@ -10,7 +10,7 @@ class RefreshIndicatorWidget extends StatefulWidget {
 class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
   List<String> items = [
     'Item 1',
-    'Item2',
+    'Item 2',
   ];
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
         await Future.delayed(
           const Duration(seconds: 1),
         );
-        int nextItem = items.length + 1;
+        int nextItem = items.length + 2;
         items.add('Item $nextItem');
         setState(() {});
       },
