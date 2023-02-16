@@ -19,7 +19,7 @@ class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
         await Future.delayed(
           const Duration(seconds: 1),
         );
-        int nextItem = items.length + 2;
+        int nextItem = items.length + 1;
         items.add('Item $nextItem');
         setState(() {});
       },
