@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'raw_chip_widget.dart';
+import 'refreshIndicator_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: RawChipWidget(),
+        body: RefreshIndicatorWidget(),
       ),
     );
   }
