@@ -33,7 +33,7 @@ class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
               title: Text(items[index]),
               tileColor: Colors.white24,
             ))),
-        padding: const EdgeInsets.all(5),
+        padding: const EdgeInsets.all(10),
       ),
     );
   }
