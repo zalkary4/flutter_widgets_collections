@@ -28,7 +28,7 @@ class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
       child: ListView.builder(
         itemCount: items.length,
         itemBuilder: ((context, index) => Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(10.0),
             child: ListTile(
               title: Text(items[index]),
               tileColor: Colors.white24,
