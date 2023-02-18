@@ -9,7 +9,7 @@ class ReorderableListViewWidget extends StatefulWidget {
 }
 
 class _ReorderableListViewWidgetState extends State<ReorderableListViewWidget> {
-  final List<int> items = List<int>.generate(30, (int index) => index);
+  final List<int> items = List<int>.generate(20, (int index) => index);
   @override
   Widget build(BuildContext context) {
     return ReorderableListView(
