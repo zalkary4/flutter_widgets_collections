@@ -17,7 +17,7 @@ class _ReorderableListViewWidgetState extends State<ReorderableListViewWidget> {
         items.length,
         (index) => ListTile(
           key: Key('$index'),
-          tileColor: items[index].isOdd ? Colors.white24 : Colors.white30,
+          tileColor: items[index].isOdd ? Colors.blue : Colors.white30,
           title: Text('item ${items[index]}'),
           trailing: const Icon(Icons.drag_handle_sharp),
         ),
