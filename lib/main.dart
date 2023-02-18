@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'reorderable_list_view_widget.dart';
+import 'rich_text_widget01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: ReorderableListViewWidget(),
+        body: RichTextWidget01(),
       ),
     );
   }
