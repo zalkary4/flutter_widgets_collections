@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'rich_text_widget01.dart';
+import 'package:flutter_widgets/animated_physical_modal017.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: RichTextWidget01(),
+        body: AnimatedPhysicalModal017(),
       ),
     );
   }
