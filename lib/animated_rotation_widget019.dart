@@ -20,7 +20,7 @@ class _AnimatedRotationWidget019State extends State<AnimatedRotationWidget019> {
             padding: const EdgeInsets.all(50),
             child: AnimatedRotation(
               turns: turns,
-              duration: const Duration(seconds: 1),
+              duration: const Duration(milliseconds: 500),
               child: const FlutterLogo(
                 size: 100,
               ),
