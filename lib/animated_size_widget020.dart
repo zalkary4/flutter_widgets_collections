@@ -8,14 +8,14 @@ class AnimatedSizeWidget020 extends StatefulWidget {
 }
 
 class _AnimatedSizeWidget020State extends State<AnimatedSizeWidget020> {
-  double _size = 300;
+  double _size = 200;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         setState(
           () {
-            _size = _size == 300 ? 100 : 300;
+            _size = _size == 300 ? 150 : 300;
           },
         );
       },
