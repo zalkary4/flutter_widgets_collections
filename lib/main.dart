@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/animated_size_widget020.dart';
+
+import 'ratadet_box_widget01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: AnimatedSizeWidget020(),
+        body: RatadetBoxWidget01(),
       ),
     );
   }
