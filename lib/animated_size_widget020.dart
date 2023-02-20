@@ -22,8 +22,8 @@ class _AnimatedSizeWidget020State extends State<AnimatedSizeWidget020> {
       child: Container(
         color: Colors.white,
         child: AnimatedSize(
-          curve: Curves.easeIn,
-          duration: const Duration(seconds: 1),
+          curve: Curves.linear,
+          duration: const Duration(milliseconds: 200),
           child: FlutterLogo(
             size: _size,
           ),
