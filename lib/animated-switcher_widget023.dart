@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class AnimatedSwitcherWidget022 extends StatefulWidget {
-  const AnimatedSwitcherWidget022({Key? key}) : super(key: key);
+class AnimatedSwitcherWidget023 extends StatefulWidget {
+  const AnimatedSwitcherWidget023({Key? key}) : super(key: key);
 
   @override
-  _AnimatedSwitcherWidget022State createState() =>
-      _AnimatedSwitcherWidget022State();
+  _AnimatedSwitcherWidget023State createState() =>
+      _AnimatedSwitcherWidget023State();
 }
 
-class _AnimatedSwitcherWidget022State extends State<AnimatedSwitcherWidget022> {
+class _AnimatedSwitcherWidget023State extends State<AnimatedSwitcherWidget023> {
   int _count = 0;
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class _AnimatedSwitcherWidget022State extends State<AnimatedSwitcherWidget022> {
             duration: const Duration(milliseconds: 500),
             child: Text(
               '$_count',
-              style: const TextStyle(fontSize: 40),
+              style: const TextStyle(fontSize: 100),
               key: ValueKey(_count),
             ),
             transitionBuilder: (Widget child, Animation<double> animation) {

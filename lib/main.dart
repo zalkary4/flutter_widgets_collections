@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/animated-switcher_widget022.dart';
+import 'package:flutter_widgets/app_bar_widget026.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter DemO',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const Scaffold(
-        body: AnimatedSwitcherWidget022(),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Flutter Mapp'),
+          centerTitle: true,
+        ),
+        body: const AppBarWidget026(),
       ),
     );
   }
