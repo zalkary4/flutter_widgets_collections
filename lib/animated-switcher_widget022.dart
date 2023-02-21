@@ -23,6 +23,12 @@ class _AnimatedSwitcherWidget022State extends State<AnimatedSwitcherWidget022> {
               style: const TextStyle(fontSize: 40),
               key: ValueKey(_count),
             ),
+            transitionBuilder: (Widget child, Animation<double> animation) {
+              return ScaleTransition(
+                scale: animation,
+                child: child,
+              );
+            },
           ),
           ElevatedButton(
             onPressed: () {
