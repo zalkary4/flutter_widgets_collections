@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'ratadet_box_widget01.dart';
+import 'package:flutter_widgets/animated-switcher_widget022.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: RatadetBoxWidget01(),
+        body: AnimatedSwitcherWidget022(),
       ),
     );
   }

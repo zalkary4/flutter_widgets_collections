@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AnimatedSizeWidget020 extends StatefulWidget {
-  const AnimatedSizeWidget020({Key? key}) : super(key: key);
+class AnimatedSizeWidget021 extends StatefulWidget {
+  const AnimatedSizeWidget021({Key? key}) : super(key: key);
 
   @override
-  _AnimatedSizeWidget020State createState() => _AnimatedSizeWidget020State();
+  _AnimatedSizeWidget021State createState() => _AnimatedSizeWidget021State();
 }
 
-class _AnimatedSizeWidget020State extends State<AnimatedSizeWidget020> {
+class _AnimatedSizeWidget021State extends State<AnimatedSizeWidget021> {
   double _size = 200;
   @override
   Widget build(BuildContext context) {
