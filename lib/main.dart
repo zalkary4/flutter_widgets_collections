@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/animated-switcher_widget023.dart';
 import 'package:flutter_widgets/app_bar_widget026.dart';
 
 void main() {
@@ -12,11 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Mapp'),
-          centerTitle: true,
-        ),
-        body: const AppBarWidget026(),
+        appBar: appBarForAllWidgets(),
+        body: const AnimatedSwitcherWidget023(),
       ),
     );
   }
