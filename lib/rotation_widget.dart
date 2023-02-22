@@ -10,7 +10,7 @@ class RotationWidgetQQQQ extends StatefulWidget {
 class _RotationWidgetQQQQState extends State<RotationWidgetQQQQ>
     with TickerProviderStateMixin {
   late final AnimationController _controller = AnimationController(
-    duration: const Duration(seconds: 2),
+    duration: const Duration(seconds: 1),
     vsync: this,
   )..repeat(reverse: true);
   late final Animation<double> _animation = CurvedAnimation(
