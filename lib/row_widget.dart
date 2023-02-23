@@ -20,7 +20,13 @@ class _RowWidgetState extends State<RowWidget> {
               onPressed: () {},
               child: const Text('Click'),
             ),
-          )
+          ),
+          Expanded(
+            child: ElevatedButton(
+              onPressed: () {},
+              child: const Text('Click'),
+            ),
+          ),
         ],
       ),
     );
