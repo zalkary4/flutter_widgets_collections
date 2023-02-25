@@ -53,6 +53,8 @@ class _ScaffoldWidgetState extends State<ScaffoldWidget> {
             label: 'Profile',
           ),
         ],
+        onTap: (int index) {},
+        selectedItemColor: Colors.orangeAccent,
       ),
     );
   }
