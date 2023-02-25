@@ -31,11 +31,15 @@ class _ScaffoldWidgetState extends State<ScaffoldWidget> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.red,
         onPressed: () => setState(
           () {
             _count++;
           },
+        ),
+        tooltip: 'Increment Counter',
+        child: const Icon(
+          Icons.add,
         ),
       ),
     );
