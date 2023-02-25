@@ -8,7 +8,7 @@ class ScaffoldWidget extends StatefulWidget {
 }
 
 class _ScaffoldWidgetState extends State<ScaffoldWidget> {
-  final int _count = 0;
+  int _count = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,6 +27,15 @@ class _ScaffoldWidgetState extends State<ScaffoldWidget> {
           child: ListTile(
             title: Text('Click'),
           ),
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.white,
+        onPressed: () => setState(
+          () {
+            _count++;
+          },
         ),
       ),
     );
