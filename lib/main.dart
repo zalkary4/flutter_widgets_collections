@@ -21,6 +21,20 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: appBarForAllWidgets(),
         body: const ScaleTransitionWidget(),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: 'Home',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              label: 'Profile',
+            ),
+          ],
+          onTap: (int index) {},
+          selectedItemColor: Colors.orangeAccent,
+        ),
       ),
     );
   }
