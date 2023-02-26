@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/app_bar_widget026.dart';
-import 'package:flutter_widgets/scaffold_widget.dart';
+import 'package:flutter_widgets/scale_transition_widget.dart';
+import 'package:flutter_widgets/widgets/app_bar_widget026.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: appBarForAllWidgets(),
-        body: const ScaffoldWidget(),
+        body: const ScaleTransitionWidget(),
       ),
     );
   }

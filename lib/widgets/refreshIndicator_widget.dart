@@ -1,13 +1,15 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 
-class RefreshIndicatorWidget extends StatefulWidget {
-  const RefreshIndicatorWidget({Key? key}) : super(key: key);
+class RefreshIndicatorWidgetABC extends StatefulWidget {
+  const RefreshIndicatorWidgetABC({Key? key}) : super(key: key);
 
   @override
-  _RefreshIndicatorWidgetState createState() => _RefreshIndicatorWidgetState();
+  _RefreshIndicatorWidgetABCState createState() =>
+      _RefreshIndicatorWidgetABCState();
 }
 
-class _RefreshIndicatorWidgetState extends State<RefreshIndicatorWidget> {
+class _RefreshIndicatorWidgetABCState extends State<RefreshIndicatorWidgetABC> {
   List<String> items = [
     'Item 1',
     'Item 2',
