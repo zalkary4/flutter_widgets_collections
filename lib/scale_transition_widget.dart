@@ -25,6 +25,13 @@ class _ScaleTransitionWidgetState extends State<ScaleTransitionWidget>
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: ScaleTransition(
+        scale: _animation,
+        child: const FlutterLogo(
+          size: 150,
+        ),
+      ),
+    );
   }
 }
