@@ -13,8 +13,8 @@ class _AspectRatioWidget027State extends State<AspectRatioWidget027> {
     return Container(
       color: Colors.orangeAccent,
       alignment: Alignment.center,
-      // height: 150,
-      height: 300,
+      height: 150,
+      // height: 300,
       child: AspectRatio(
         aspectRatio: 16 / 9,
         child: Container(
