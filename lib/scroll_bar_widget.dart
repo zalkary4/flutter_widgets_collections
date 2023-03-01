@@ -15,7 +15,7 @@ class _ScrollBarWidget11State extends State<ScrollBarWidget11> {
       controller: controller,
       child: ListView.builder(
         controller: controller,
-        itemCount: 100,
+        itemCount: 50,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
             title: Text('Item ${index + 1}'),
