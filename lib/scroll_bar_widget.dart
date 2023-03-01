@@ -18,7 +18,7 @@ class _ScrollBarWidget11State extends State<ScrollBarWidget11> {
         itemCount: 50,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
-            title: Text('Item ${index + 1}'),
+            title: Text('Item ${index + 2}'),
           );
         },
       ),
