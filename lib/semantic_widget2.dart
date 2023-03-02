@@ -26,7 +26,7 @@ class _SemanticWidget2State extends State<SemanticWidget2> {
             children: [
               Semantics(
                   label: 'This is the Flutter Logo',
-                  child: const FlutterLogo(size: 200)),
+                  child: const FlutterLogo(size: 220)),
               const FlutterLogo(size: 200)
             ],
           ),
