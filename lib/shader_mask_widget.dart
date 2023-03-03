@@ -26,7 +26,7 @@ class _ShaderMaskWidgetState extends State<ShaderMaskWidget> {
             ).createShader(bounds);
           },
           child: const Text(
-            'This is a cool looking text',
+            'This is a cool looking TEXT',
             style: TextStyle(fontSize: 50),
           ),
         ),
