@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'semantic_widget2.dart';
+import 'package:flutter_widgets/shader_mask_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SemanticWidget2(),
+        body: ShaderMaskWidget(),
       ),
     );
   }
