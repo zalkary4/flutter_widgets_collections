@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/simple_dialog_widget.dart';
+import 'package:flutter_widgets/short_cuts_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SimpleDialogWidget(),
+        body: ShortCutsWidget(),
       ),
     );
   }
