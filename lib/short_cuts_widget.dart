@@ -49,6 +49,14 @@ class _ShortCutsWidgetState extends State<ShortCutsWidget> {
             },
           )
         },
+        child: Focus(
+          child: Center(
+            child: Text(
+              'Counter: $count',
+              style: const TextStyle(fontSize: 30),
+            ),
+          ),
+        ),
       ),
     );
   }
