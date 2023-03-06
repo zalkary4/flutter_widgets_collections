@@ -24,7 +24,7 @@ class _ShortCutsWidgetState extends State<ShortCutsWidget> {
     return Shortcuts(
       shortcuts: <ShortcutActivator, Intent>{
         LogicalKeySet(LogicalKeyboardKey.arrowUp): const IncrementIntent(),
-        LogicalKeySet(LogicalKeyboardKey.arrowDown): const DecrementIntent(),
+        LogicalKeySet(LogicalKeyboardKey.arrowLeft): const DecrementIntent(),
       },
       child: Actions(
         actions: {
