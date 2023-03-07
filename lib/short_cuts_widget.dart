@@ -32,7 +32,7 @@ class _ShortCutsWidgetState extends State<ShortCutsWidget> {
             onInvoke: (intent) {
               setState(
                 () {
-                  count = count + 1;
+                  count = count + 2;
                 },
               );
               return null;
