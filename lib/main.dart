@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/single_child_scroll_view.dart';
+import 'package:flutter_widgets/widgets/single_child_scroll_view.dart';
 
 void main() {
   runApp(const MyApp());
