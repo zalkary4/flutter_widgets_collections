@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/single_child_scroll_view.dart';
+import 'package:flutter_widgets/size_transitionwidget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SingleChildScrollViewWidgetsss(),
+        body: SizeTransitionwidget(),
       ),
     );
   }
