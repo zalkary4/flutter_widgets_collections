@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/size_transitionwidget.dart';
+import 'package:flutter_widgets/sized_box_widget01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SizeTransitionwidget(),
+        body: SizedBoxWidget01(),
       ),
     );
   }
