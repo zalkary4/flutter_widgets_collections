@@ -31,7 +31,7 @@ class _BananaLeavesPageState extends State<BananaLeavesPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(25.0),
             child: Text(
               description,
               textAlign: TextAlign.justify,
