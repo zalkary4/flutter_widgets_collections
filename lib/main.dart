@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/sized_overflow_widget.dart';
+import 'package:flutter_widgets/banana_leaves_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SizedOverflowWidget(),
+        body: BananaLeavesPage(),
       ),
     );
   }
