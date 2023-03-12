@@ -37,6 +37,9 @@ class _BananaLeavesPageState extends State<BananaLeavesPage> {
               textAlign: TextAlign.justify,
             ),
           ),
+          const SizedBox(
+            height: 60.0,
+          ),
           ElevatedButton(
             onPressed: () {},
             child: const Text('Get started'),
