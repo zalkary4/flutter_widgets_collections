@@ -24,8 +24,8 @@ class _BackDropFilterWidget031State extends State<BackDropFilterWidget031> {
           child: ClipRect(
             child: BackdropFilter(
               filter: ImageFilter.blur(
-                sigmaX: 4.0,
-                sigmaY: 4.0,
+                sigmaX: 1.0,
+                sigmaY: 1.0,
               ),
               child: Container(
                 alignment: Alignment.center,
