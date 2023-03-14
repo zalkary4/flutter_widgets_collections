@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/back_drop_filter_widget031.dart';
+import 'package:flutter_widgets/slide_transition_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: BackDropFilterWidget031(),
+        body: SlideTransitionWidget(),
       ),
     );
   }
