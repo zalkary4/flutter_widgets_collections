@@ -32,7 +32,7 @@ class _SlideTransitionWidgetState extends State<SlideTransitionWidget>
       child: SlideTransition(
         position: _offsetAnimation,
         child: const Padding(
-          padding: EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(15.0),
           child: FlutterLogo(
             size: 150.0,
           ),
