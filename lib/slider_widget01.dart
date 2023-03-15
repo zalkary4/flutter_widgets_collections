@@ -12,13 +12,17 @@ class _SliderWidget01State extends State<SliderWidget01> {
   @override
   Widget build(BuildContext context) {
     return Slider(
-        value: _currentSliderValue,
-        max: 100,
-        divisions: 1,
-        onChanged: (double value) {
-          setState(() {
+      value: _currentSliderValue,
+      max: 100,
+      divisions: 100,
+      label: _currentSliderValue.round().toString(),
+      onChanged: (double value) {
+        setState(
+          () {
             _currentSliderValue = value;
-          });
-        });
+          },
+        );
+      },
+    );
   }
 }
