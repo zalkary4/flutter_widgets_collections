@@ -15,7 +15,7 @@ class _SliverAppBarWidgetState extends State<SliverAppBarWidget> {
         slivers: [
           SliverAppBar(
             pinned: true,
-            floating: false,
+            floating: true,
             expandedHeight: 160,
             flexibleSpace: FlexibleSpaceBar(
               title: const Text('Flutter Mapp'),
