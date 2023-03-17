@@ -32,7 +32,7 @@ class _SliverAppBarWidgetState extends State<SliverAppBarWidget> {
                 title: Text('Item ${1 + index}'),
               );
             },
-            childCount: 20,
+            childCount: 30,
           )),
         ],
       ),
