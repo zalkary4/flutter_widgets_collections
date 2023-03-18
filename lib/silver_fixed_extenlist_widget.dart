@@ -19,7 +19,7 @@ class _SilverFixedExtenlistWidgetState
             (BuildContext context, int index) {
               return Container(
                 alignment: Alignment.center,
-                color: index.isEven ? Colors.white12 : Colors.white38,
+                color: index.isEven ? Colors.blue : Colors.white70,
                 child: Text('Itme ${index + 1}'),
               );
             },
