@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/sliver_app_bar_widget.dart';
+import 'package:flutter_widgets/silver_fixed_extenlist_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SliverAppBarWidget(),
+        body: SilverFixedExtenlistWidget(),
       ),
     );
   }
