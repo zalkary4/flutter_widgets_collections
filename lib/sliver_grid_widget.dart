@@ -23,7 +23,7 @@ class _SliverGridWidgetState extends State<SliverGridWidget> {
             },
           ),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
+            crossAxisCount: 3,
           ),
         ),
       ],
