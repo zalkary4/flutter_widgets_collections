@@ -17,13 +17,13 @@ class _SliverGridWidgetState extends State<SliverGridWidget> {
             (BuildContext context, int index) {
               return Container(
                 alignment: Alignment.center,
-                color: Colors.orange[100 * (index % 9 + 1)],
+                color: Colors.blue[100 * (index % 9 + 1)],
                 child: Text('Item ${index + 1}'),
               );
             },
           ),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 3,
+            crossAxisCount: 2,
           ),
         ),
       ],
