@@ -25,7 +25,7 @@ class _SilverFixedExtenlistWidgetState
             },
             childCount: 40,
           ),
-          itemExtent: 50,
+          itemExtent: 60,
         )
       ],
     );
