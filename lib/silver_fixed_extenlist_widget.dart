@@ -23,7 +23,7 @@ class _SilverFixedExtenlistWidgetState
                 child: Text('Itme ${index + 1}'),
               );
             },
-            childCount: 30,
+            childCount: 40,
           ),
           itemExtent: 50,
         )
