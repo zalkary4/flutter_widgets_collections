@@ -100,7 +100,58 @@ class _SliverOpacityWidgetState extends State<SliverOpacityWidget> {
             ),
           ),
           SliverOpacity(
+            opacity: 0.6,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
+            opacity: 0.7,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
             opacity: 0.8,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
+            opacity: 0.9,
             sliver: SliverList(
               delegate: SliverChildListDelegate(
                 [
