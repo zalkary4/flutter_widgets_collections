@@ -15,7 +15,58 @@ class _SliverOpacityWidgetState extends State<SliverOpacityWidget> {
       child: CustomScrollView(
         slivers: [
           SliverOpacity(
+            opacity: 0.1,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
             opacity: 0.2,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
+            opacity: 0.3,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
+            opacity: 0.4,
             sliver: SliverList(
               delegate: SliverChildListDelegate(
                 [
@@ -50,6 +101,23 @@ class _SliverOpacityWidgetState extends State<SliverOpacityWidget> {
           ),
           SliverOpacity(
             opacity: 0.8,
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  const Card(
+                    child: SizedBox(
+                      height: 50,
+                      child: Center(
+                        child: Text('Flutter Mapp'),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SliverOpacity(
+            opacity: 1,
             sliver: SliverList(
               delegate: SliverChildListDelegate(
                 [
