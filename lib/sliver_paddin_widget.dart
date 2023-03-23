@@ -13,7 +13,7 @@ class _SliverPaddinWidgetState extends State<SliverPaddinWidget> {
     return CustomScrollView(
       slivers: [
         SliverPadding(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(20),
           sliver: SliverList(
             delegate: SliverChildListDelegate(
               [
