@@ -15,7 +15,7 @@ class _SliverToBoxAdaptedWidgetState extends State<SliverToBoxAdaptedWidget> {
       slivers: [
         SliverToBoxAdapter(
           child: SizedBox(
-            height: 20,
+            height: 40,
             child: Text('Sliver to box adapted'),
           ),
         ),
