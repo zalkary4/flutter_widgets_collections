@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/sliver_paddin_widget.dart';
+
+import 'sliver_to_box_adapted_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SliverPaddinWidget(),
+        body: SliverToBoxAdaptedWidget(),
       ),
     );
   }
