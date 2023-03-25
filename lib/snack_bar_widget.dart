@@ -15,8 +15,8 @@ class _SnackBarWidgetState extends State<SnackBarWidget> {
           onPressed: () {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                backgroundColor: const Color.fromARGB(0, 10, 45, 0),
-                closeIconColor: const Color.fromARGB(0, 30, 203, 11),
+                backgroundColor: const Color.fromARGB(0, 44, 205, 0),
+                closeIconColor: const Color.fromARGB(0, 233, 3, 3),
                 content: const Text('Flutter Mapp'),
                 action: SnackBarAction(
                   label: 'Undo',
