@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/snack_bar_widget.dart';
+import 'package:flutter_widgets/banner_widget032.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         // appBar: appBarForAllWidgets(),
         // bottomNavigationBar: bottomNavBarForAllWidgets(),
-        body: SnackBarWidget(),
+        body: BannerWidget032(),
       ),
     );
   }
