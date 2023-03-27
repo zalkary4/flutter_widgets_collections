@@ -37,7 +37,7 @@ class _BannerWidget032State extends State<BannerWidget032> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.orangeAccent,
                       ),
-                      child: const Text('Get now'),
+                      child: const Text('Get Now'),
                     )
                   ],
                 )
