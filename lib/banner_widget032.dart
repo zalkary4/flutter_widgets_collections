@@ -28,7 +28,7 @@ class _BannerWidget032State extends State<BannerWidget032> {
                     const Text(
                       'Flutter Course (Beginners)',
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
