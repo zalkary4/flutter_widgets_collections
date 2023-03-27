@@ -21,7 +21,7 @@ class _BannerWidget032State extends State<BannerWidget032> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.network('http://tinyurl.com/5n8ywvw3'),
-                const SizedBox(height: 15),
+                const SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
